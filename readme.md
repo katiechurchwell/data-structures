@@ -20,13 +20,13 @@
 ## Abstract Data Structures
 
 - Array
-- Linked List
-- Stack
-- Queue
-- Tree
-- Binary Tree
+- [Linked List](https://my.mindnode.com/3qHEkZSjxuNFsVQvrN3Prm6smDzeLKcKA8P8sZF3)
+- [Stack](https://my.mindnode.com/9S8sTq6q68R3S9ZsBMqqZynyMpS6HRVGR7jhqjzk)
+- [Queue](https://my.mindnode.com/Ggp2kJzx8z96zAnfaSJGNGwH4tpVCpLsu3PZjF8L)
+- [Binary Tree](https://my.mindnode.com/ByphRGZUs9yfqksaLzMqDVsmsTeBaJ2W4ioq1p5p)
   - K-Ary Tree
   - Graph
+- [Hashmap](https://my.mindnode.com/ZwYyemgphkpraukAr2xHunfbKhR1bxd7XLL1qtzn)
 
 ## Data
 
@@ -37,14 +37,14 @@
 
 ## Linked List
 
-- single linked list you know next but not previous (doubley for both)
-- value and next
-- a collection of nodes where each node holds a value and a pointer to the next node.
-- use cases: version history, carousel/slideshow, API pagination, blockchains
+- Single linked list you know next but not previous (doubly for both).
+- Value and next.
+- A collection of nodes where each node holds a value and a pointer to the next node.
+- Use cases: version history, carousel/slideshow, API pagination, blockchains.
 - Traversed the list, traversal.
-- primary operations: add, traverse, size.
+- Primary operations: add, traverse, size.
 
-side note: while is preferable over a for loop when length is unknown.
+Side note: while is preferable over a for loop when length is unknown.
 
 O notation:
 
@@ -54,13 +54,13 @@ O notation:
 ## Stack
 
 - Last in, first out. Pushing and popping one value at a time.
-- examples: browser history, backtracking apps, undo/redo,
+- Examples: browser history, backtracking apps, undo/redo.
 - A stack is a collection of nodes where each node holds a value accessible in LIFO order.
 
 ## Queue
 
 - FIFO
-- JavaScript is event driven programming
+- JavaScript is event driven programming.
 - [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 - Messaging services:
   - Amazon SQS
@@ -72,34 +72,36 @@ O notation:
 
 ## Array
 
-- ammortizes cost with add, memory offsets.
-- proportionally allocate more RAM room.
+- Ammortizes cost with add, memory offsets.
+- Proportionally allocate more RAM room.
 - JavaScript uses dynamic arrays.
-- buffer overflow attack. punch through at the end of array and inject code.
-- sortable.
-- a collection of values indexed from an initial point in memory individually accessible at an offset.
-- sequential access (for-loop), efficient.
+- Buffer overflow attack. punch through at the end of array and inject code.
+- Sortable.
+- A collection of values indexed from an initial point in memory individually accessible at an offset.
+- Sequential access (for-loop), efficient.
 - Reserves memory as it grows: 0(2n) space.
-  - a linked list would be 0(1) for inserting in the middle
-- merge sort, quick sort and insert sort.
-- binary search algorithm
+  - A linked list would be 0(1) for inserting in the middle
+- Merge sort, quick sort and insert sort.
+- Binary search algorithm.
 
 ## Binary Tree
 
-- analogies: reverse polish notation, dichotomous key, branching river.
-- examples: AI/ML decision tree, huffman coding (.jpeg compression), etc.
-- "binary search tree" and "B trees" are different than a binary tree.
-- traversing: breadth or width first.
-- full, perfect, complete; root, branch, leaf, height.
-- strengths: O(log n) search, elegant recursion, simplicity of interface
+- Analogies: [reverse polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), dichotomous key, branching river.
+- Examples: AI/ML decision tree, huffman coding (.jpeg compression), etc.
+- "Binary search tree" and "B trees" are different than a binary tree.
+- Traversing: breadth or width first.
+- Full, perfect, complete; root, branch, leaf, height.
+- Strengths: O(log n) search, elegant recursion, simplicity of interface
 
 ## Hash Maps
-- hashing (used bcrypt in past)
-- key values
-- analogies: dictionary, GPS coordinates, upc codes, license plates, ssn
-- objects in objects
+
+- Hashing (used bcrypt in past).
+- Key values.
+- Analogies: dictionary, GPS coordinates, upc codes, license plates, ssn
+- Objects in objects.
 - A collection of values labeled with infinite key possibilities stored in a finite amount of memory.
 - o(1) time
 
 ## Further Research
+
 - Gayle Laakmann McDowell videos
